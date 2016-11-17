@@ -1,0 +1,116 @@
+/*==========================
+header
+===========================*/
+header{
+    background: #7fdadb;
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+.overflow-none{
+    overflow: hidden;
+}
+.title-heading{
+    font-size: 20px;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+    line-height: 60px;
+    margin-right: 40px;
+}
+.nav-cinema{
+    display: inline-block;
+}
+.nav-cinema li{
+    line-height: 60px;
+    float: left;
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 18px;
+}
+.nav-cinema li:hover{
+    background: #efe8cb;
+}
+.nav-cinema li a{
+    color: #2a9abf;
+}
+.heading-right-index{
+    width: 390px;
+    display: inline-block;
+    float: right;
+    margin-top: 17px;
+    overflow: hidden;
+}
+.search-heading{
+    float: left;
+    width: 326px;
+    position: relative;
+}
+.search-box{
+    position: absolute;
+    left: 256px;
+    display: none;
+    float: left;
+    width: 256px;
+    height: 27px;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 2px 12px;
+}
+.search-box input{
+    border: none;
+    line-height: 25px;
+    font-size: 14px;
+    float: left;
+}
+.icon{
+    display: inline-block;
+    cursor: pointer;
+}
+.icon-search-blue{
+    float: right;
+    width: 25px;
+    height: 25px;
+    background: url("../image/serachBlue.png");
+    background-size: cover;
+}
+.icon-search{
+    width: 32px;
+    height: 32px;
+    background: url("../image/search.png");
+    float: right;
+    background-size: cover;
+}
+.icon-close{
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background: url("../image/close.png");
+}
+.icon-personal{
+    margin-right: 3px;
+    float: right;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background: url("../image/personal.png");
+}
+@media screen and (max-width: 1200px){
+    .column-center{
+        width: 90%;
+    }
+}
+/*========================
+footer
+========================*/
+footer{
+    width: 100%;
+    min-width: 1200px;
+    height: 100px;
+    color: #ffffff;
+    background-color: #7fdadb;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 180px;
+}

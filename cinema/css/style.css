@@ -1,0 +1,223 @@
+/*******轮播*******/
+.slide-box{
+    position:relative;
+    overflow:hidden;
+    width: 100%;
+    min-width: 1200px;
+}
+.slide-box .hd{
+    position:absolute;
+    height:28px;
+    line-height:28px;
+    bottom:0;
+    right:0;
+    z-index:1;
+    width: 100%;
+}
+.slide-box .hd ul{
+    text-align: center;
+}
+.slide-box .hd li{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    background:#333;
+    text-indent:-9999px;
+    overflow:hidden;
+    margin:0 6px;   }
+.slide-box .hd li.on{
+    background:#fff;
+}
+.slide-box .bd{
+    position:relative;
+    z-index:0;
+    height: 400px;
+}
+.slide-box .bd li{
+    position:relative;
+    text-align:center;
+}
+.slide-box .bd li img{
+    vertical-align:top;
+    width:100%;
+    height: 400px;
+}
+.slide-box .bd li a{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}  /* 去掉链接触摸高亮 */
+.slide-box .bd li .tit{
+    display:block;
+    position:absolute;
+    top:50%;
+    left: 20%;
+    text-align:left;
+}
+.slide-box .bd li .tit p{
+    font-size: 26px;
+    color: #ffffff;
+    margin-bottom: 14px;
+}
+.slide-box .bd li .tit small{
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+.slide-box .bd li .tit span{
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 5px 15px 7px;
+    text-align: center;
+}
+.btn-hot{
+    background: #d86958;
+    border: solid 1px #d86958;
+}
+.btn-new{
+    background: #ff6d00;
+    border: solid 1px #ff6d00;
+}
+.container-index{
+    overflow: hidden;
+}
+.content-index{
+    width: 813px;
+    float: left;
+}
+.icon-movie{
+    float: left;
+    width: 28px;
+    height: 28px;
+    background: url("../image/movieicon.png");
+}
+.title-index{
+    margin: 30px 0 15px;
+}
+.title-index span{
+    font-weight: bold;
+    color: #eb4f38;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.title-index a{
+    display: inline-block;
+    color: #eb4f38;
+    float: right;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+.content-container{
+    overflow: hidden;
+}
+.content-index{
+}
+.content-container li{
+    width: 190px;
+    height: 250px;
+    float: left;
+    position: relative;
+    margin: 6px;
+}
+.content-container li a{
+    display: block;
+}
+.content-container li img{
+    width: 100%;
+}
+.info-movies-index{
+    display: none;
+    background: rgba(0,0,0,0.8);
+    color: #ffffff;
+}
+.position-all{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.info-movies-index h3{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 90px;
+}
+.info-movies-index h4{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 12px;
+}
+.list-index{
+    margin-top: 20px;
+}
+.list-index li{
+    width: 55px !important;
+    height: 16px !important;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 10px;
+    background: rgba(255,255,255,0.8);
+    text-align: center;
+    margin: 0 4px;
+}
+.sidebar-index{
+    width: 364px;
+    float: right;
+}
+.title-sidebar{
+    font-size: 18px;
+    text-align: center;
+    background: #2a9abf;
+    color: #ffffff;
+    margin-top: 30px;
+    line-height: 45px;
+}
+.list-sidebar{
+    background: #ffffff;
+    padding: 25px 25px 25px 35px;
+}
+.list-sidebar li{
+    line-height: 36px;
+    font-size: 18px;
+}
+.list-sidebar li a{
+    color: #000;
+}
+.list-sidebar li span{
+    color: #cd4444;
+    float: right;
+}
+
+.subnav-index{
+    display: none;
+    position: absolute;
+    bottom: -147px;
+    z-index: 10;
+    height: 147px;
+    width: 100%;
+}
+.box-index{
+    width: 1200px;
+    margin: 0 auto;
+}
+.subnav-index ul{
+    background: #ffffff;
+    padding: 10px 0;
+    height: 127px;
+    width: 148px;
+    float: right;
+}
+.subnav-index ul li{
+    padding: 10px 0;
+    text-align: center;
+}
+.subnav-index ul li a{
+    color: #000000;
+}
+.subnav-index ul li a:hover{
+    color: #2a9abf;
+}

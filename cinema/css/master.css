@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: '微软雅黑';
+}
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+body {
+  width: 100%;
+  font-size: 14px;
+}
+
+input, button {
+  outline: none; }
+button{
+    cursor: pointer;
+}
+.column-center{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*# sourceMappingURL=master.css.map */
