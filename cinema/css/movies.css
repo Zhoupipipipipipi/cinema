@@ -1,0 +1,217 @@
+/*电影头部图*/
+.banner-movies{
+    width: 100%;
+    height: 405px;
+    min-width: 1200px;
+}
+.banner-movies img{
+    width: 100%;
+    height: 405px;
+}
+/*影片信息*/
+.content-movies{
+    width: 885px;
+    margin: 0 auto;
+    padding: 25px 50px;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    margin-top: -160px;
+    z-index: 2;
+    position: relative;
+}
+.info-all-movies{
+
+}
+.info-left{
+    float: left;
+    width: 225px;
+    padding: 10px;
+    box-shadow: 0 0 15px #ccc ;
+    border-radius: 5px;
+}
+.info-left img{
+    width: 100%;
+    height: 296px;
+    background: #ffffff;
+}
+.btn-buy{
+    width: 100%;
+    height: 50px;
+    background: #ec7070;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-top: 13px;
+}
+.info-right{
+    margin-left: 100px;
+    display: inline-block;
+}
+.info-right h1{
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.info-right h2{
+    margin-top: 15px;
+    font-size: 16px;
+    color: #757575;
+    font-weight: normal;
+}
+.list-type{
+    margin-top: 10px;
+}
+.list-type li{
+    float: left;
+    color: #ffffff;
+    padding: 2px 10px;
+    display: inline-block;
+    margin-right: 23px;
+    border-radius: 3px;
+}
+.bg-yellow{
+    background: #f0b62b;
+}
+.bg-red{
+    background: #ec7070;
+}
+.list-info{
+    margin-top: 30px;
+}
+.list-info li{
+    font-family: 幼圆;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.list-info li span{
+    color: #f0b62b;
+    font-size: 22px;
+}
+/*影片介绍*/
+.item-movies{
+    margin-top: 35px;
+}
+.title-movies{
+    border-left: solid 3px #ec7070;
+    font-size: 18px;
+    padding-left: 8px;
+    margin-bottom: 20px;
+}
+.item-introduce p{
+    padding: 0 12px;
+    font-size: 15px;
+}
+/*演员模块*/
+.list-actor{
+
+}
+.list-actor li{
+    width: 150px;
+    float: left;
+    padding: 0 12px;
+}
+.list-actor li img{
+    width: 150px;
+}
+.list-actor li p{
+    font-family: 幼圆;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+/*评价模块*/
+.list-assess{
+
+}
+.list-assess li{
+
+}
+.pic-user{
+    display: inline-block;
+    float: left;
+}
+.pic-user img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.right-assess{
+    margin-left: 30px;
+    display: inline-block;
+    width: 700px;
+}
+.user-assess h4{
+    font-size: 18px;
+    display: inline-block;
+    font-weight: normal;
+}
+.user-assess small{
+    color: #cccccc;
+    margin-left: 15px;
+}
+.user-assess h5{
+    font-weight: normal;
+    float: right;
+    font-size: 16px;
+}
+.user-assess h5 span{
+    color: #d86958;
+}
+.right-assess p{
+    margin-top: 10px;
+    line-height: 20px;
+    border-bottom: solid 1px #e5e5e5;
+    padding-bottom: 15px;
+}
+.no-assess{
+    text-align: center;
+    line-height: 100px;
+}
+.no-assess a{
+    color: #d86958;
+}
+.column-write{
+
+}
+.column-write textarea{
+    width: 570px;
+    height: 147px;
+    border: solid 1px #cccccc;
+}
+.bottom-assess{
+    margin-top: 15px;
+    vertical-align: middle;
+}
+.bottom-assess span{
+    float: left;
+    line-height: 22px;
+    display: inline-block;
+}
+.list-star{
+    display: inline-block;
+}
+.list-star li{
+    cursor: pointer;
+    margin-right: 8px;
+    float: left;
+    width: 18px;
+    height: 18px;
+    background: url("../image/grayStar.png");
+    background-size: 100%;
+}
+.star-yellow{
+    background: url("../image/yellowStar.png") !important;
+    background-size: 100% !important;
+}
+.btn-submit{
+    width: 100px;
+    height: 32px;
+    color: #ffffff;
+    background: #ec7070;
+    margin-left: 30px;
+}
+/*底部模块*/
+footer{
+    margin-top: 100px;
+}

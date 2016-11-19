@@ -46,19 +46,19 @@
         </div>
         <!--影片信息-->
         <div class="content-movies">
-            <div class="info-all-movies">
+            <div class="info-all-movies clearBox">
                 <div class="info-left">
                     <img src="image/movies1.jpg">
-                    <button type="button">立即购买</button>
+                    <button type="button" class="btn-buy">立即购买</button>
                 </div>
                 <div class="info-right">
                     <h1>爵迹</h1>
                     <h2>2016年09月30日上映/121分钟</h2>
-                    <ul class="list-type">
-                        <li>奇幻</li>
-                        <li>中国大陆</li>
+                    <ul class="list-type clearBox">
+                        <li class="bg-yellow">奇幻</li>
+                        <li class="bg-red">中国大陆</li>
                     </ul>
-                    <ul>
+                    <ul class="list-info">
                         <li>导演：郭敬明</li>
                         <li>编剧：郭敬明</li>
                         <li>发行公司：乐视影业（北京）有限公司</li>
@@ -66,39 +66,47 @@
                     </ul>
                 </div>
             </div>
-            <div class="item-movies">
+            <!--介绍模块-->
+            <div class="item-movies item-introduce">
                 <div class="title-movies">介绍</div>
                 <p>在奥汀大陆这个神秘的世界里，西之亚斯兰帝国七度王爵银尘寻找到自己的使徒麒零，却无意中
                     发现了上代一度王爵吉尔伽美什可能还活着的秘密，于是义无反顾的投入到追寻之中，而与此同
                     时作为侵蚀者的王爵幽冥、特蕾娅也收到了对银尘和鬼山..</p>
             </div>
-            <div class="item-movies">
+            <!--演员模块-->
+            <div class="item-movies item-actor">
                 <div class="title-movies">演员</div>
-                <ul class="list-actor">
+                <ul class="list-actor clearBox">
                     <li>
-                        <img src="image" alt="演员名">
-                        <p></p>
+                        <img src="image/actor1.jpg" alt="演员名">
+                        <p>范冰冰</p>
                     </li>
                     <li>
-                        <img src="image" alt="演员名">
-                        <p></p>
+                        <img src="image/actor2.jpg" alt="演员名">
+                        <p>吴亦凡</p>
                     </li>
                     <li>
-                        <img src="image" alt="演员名">
-                        <p></p>
+                        <img src="image/actor3.jpg" alt="演员名">
+                        <p>陈伟霆</p>
                     </li>
                     <li>
-                        <img src="image" alt="演员名">
-                        <p></p>
+                        <img src="image/actor4.jpg" alt="演员名">
+                        <p>陈学冬</p>
+                    </li>
+                    <li>
+                        <img src="image/actor4.jpg" alt="演员名">
+                        <p>陈学冬</p>
                     </li>
                 </ul>
             </div>
-            <div class="item-movies">
+            <!--评价模块-->
+            <div class="item-movies item-assess">
                 <div class="title-movies">评价</div>
+                <!--评价列表-->
                 <ul class="list-assess">
-                    <li>
+                    <li class="clearBox">
                         <div class="pic-user">
-                            <img src="image">
+                            <img src="image/actor1.jpg">
                         </div>
                         <div class="right-assess">
                             <div class="user-assess">
@@ -113,15 +121,20 @@
                         </div>
                     </li>
                 </ul>
+                <!--无评价模块-->
+                <div class="no-assess">
+                    暂时没有评价内容，<a href="#">去做第一个评价的人！</a>
+                </div>
             </div>
+            <!--我要写短评模块-->
             <div class="item-movies">
                 <div class="title-movies">我要写短评</div>
                 <div class="column-write">
                     <textarea></textarea>
                     <div class="bottom-assess">
-                        <span></span>
+                        <span>评分：</span>
                         <ul class="list-star">
-                            <li></li>
+                            <li class="star-yellow"></li>
                             <li></li>
                             <li></li>
                         </ul>
@@ -131,5 +144,9 @@
             </div>
         </div>
     </div>
+    <!--底部模块-->
+    <footer>
+        ©2016 MOVIES 京ICP证030173号
+    </footer>
 </body>
 </html>
