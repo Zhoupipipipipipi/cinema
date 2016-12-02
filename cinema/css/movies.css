@@ -215,3 +215,160 @@
 footer{
     margin-top: 100px;
 }
+
+/*buy.html*/
+/*日期列表*/
+.tab-date{
+    margin-top: 30px;
+    background: #40a8c5;
+}
+.tab-list{
+    padding: 0 60px;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+}
+.tab-list li{
+    padding: 10px 0;
+    width: 165px;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    cursor: pointer;
+}
+.choose-date{
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+.icon-address{
+    display: inline-block;
+    width: 18px;
+    height: 27px;
+    background: url("../image/addressLogo.png") no-repeat;
+    float: left;
+    background-size: 80%;
+}
+.address b{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.address{
+    padding: 10px 0 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/*影院选择*/
+.content-cinema{
+
+}
+.content-cinema >li{
+    border-bottom: dashed 1px #cccccc;
+    padding: 35px 0 20px;
+}
+.item-cinema-left{
+    display: inline-block;
+    float: left;
+}
+.item-cinema-left h4{
+    font-size: 18px;
+    font-weight: normal;
+}
+.item-cinema-left p{
+    margin-top: 3px;
+}
+.item-cinema-right{
+    display: inline-block;
+    float: right;
+    margin-top: 8px;
+}
+.item-cinema-right span{
+    color: #d86958;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.btn-chooseSeat{
+    width: 90px;
+    height: 32px;
+    background: #40a8c5;
+    color: #ffffff;
+    border-radius: 3px;
+    margin-left: 25px;
+}
+/*时间选择*/
+.column-time{
+    padding: 20px ;
+}
+.list-time{
+
+}
+.list-time li{
+    width: 180px;
+    display: inline-block;
+    float: left;
+    margin: 15px;
+}
+.time-choose{
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    -webkit-transition: border-color 0.3s, background-color 0.3s;
+    transition: border-color 0.3s, background-color 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    border: solid 1px #f0b62b;
+}
+
+.time-choose::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    line-height: 55px;
+    width: 100%;
+    height: 100%;
+    color: #f0b62b;
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0);
+}
+.time-choose > span {
+    display: block;
+    line-height: 55px;
+    color: #000000;
+}
+.time-choose > span b{
+    font-weight: normal;
+    border-left: solid 1px #f0b62b;
+    font-size: 18px;
+    color: #f0b62b;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.time-choose::after,
+.time-choose > span {
+    content: attr(data-text);
+    font-size: 22px;
+    text-align: center;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.time-choose:hover > span {
+    opacity: 0;
+    z-index: 1;
+}
+.time-choose:hover::after {
+    font-weight: normal;
+    border-color: #f0b62b;
+    color: #ffffff;
+    background-color: #f0b62b;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
