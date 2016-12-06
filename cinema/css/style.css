@@ -192,32 +192,3 @@
     float: right;
 }
 
-.subnav-index{
-    display: none;
-    position: absolute;
-    bottom: -147px;
-    z-index: 10;
-    height: 147px;
-    width: 100%;
-}
-.box-index{
-    width: 1200px;
-    margin: 0 auto;
-}
-.subnav-index ul{
-    background: #ffffff;
-    padding: 10px 0;
-    height: 127px;
-    width: 148px;
-    float: right;
-}
-.subnav-index ul li{
-    padding: 10px 0;
-    text-align: center;
-}
-.subnav-index ul li a{
-    color: #000000;
-}
-.subnav-index ul li a:hover{
-    color: #2a9abf;
-}

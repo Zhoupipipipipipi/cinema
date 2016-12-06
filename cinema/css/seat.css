@@ -1,0 +1,155 @@
+/*seat.html*/
+.container-seat{
+    margin-top: 100px;
+}
+/*座位模块*/
+.column-seat{
+    width: 480px;
+    display: inline-block;
+    margin-left: 170px;
+}
+.column-screen{
+    height: 20px;
+    background: #dcdcdc;
+    text-align: center;
+}
+.list-seat{
+    margin-top: 55px;
+}
+.list-seat > li{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.list-seat > li span{
+    width: 50px;
+    display: inline-block;
+}
+.list-seat-item{
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon-seat{
+    width: 26px;
+    height: 24px;
+    background: url("../image/graySeat.png");
+    background-size: 100%;
+    display: inline-block;
+    float: left;
+    margin-right: 12px;
+}
+.icon-red{
+    background: url("../image/redSeat.png");
+    background-size: 100%;
+}
+.icon-yellow{
+    background: url("../image/yellowSeat.png");
+    background-size: 100%;
+}
+.list-msg{
+    margin-top: 30px;
+}
+.list-msg li{
+    display: inline-block;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+.icon-seat-size{
+    width: 32px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.gray{
+    background: url("../image/graySeat.png");
+    background-size: 100%;
+}
+.yellow{
+    background: url("../image/yellowSeat.png");
+    background-size: 100%;
+}
+.red{
+    background: url("../image/redSeat.png");
+    background-size: 100%;
+}
+/*右边影院信息*/
+.info-movies{
+    width: 320px;
+    float: right;
+    margin-right: 60px;
+}
+.title-info{
+    line-height: 45px;
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 15px;
+    background: #40a8c5;
+}
+.content-info{
+    background: #ffffff;
+}
+.width-movies{
+    width: 275px;
+    margin: 0 auto;
+}
+.info-name-time{
+    padding: 20px 0;
+    border-bottom: solid 1px #dcdcdc;
+}
+.info-name-time img{
+    width: 73px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.list-movies{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.list-movies li{
+    margin-bottom: 15px;
+}
+.list-cinema{
+    padding-top: 15px;
+    border-bottom: solid 1px #dcdcdc;
+}
+.list-cinema >li{
+    margin-bottom: 15px;
+    vertical-align: top;
+}
+.list-ticket{
+    width: 230px;
+    display: inline-block;
+    float: right;
+}
+.bg-ticket{
+    width: 67px;
+    height: 20px;
+    display: inline-block;
+    background: url("../image/ticket.png");
+    background-size: 100%;
+    text-align: center;
+    margin: 0 25px 7px 0;
+    line-height: 20px;
+}
+.column-money{
+    line-height: 32px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.column-money span{
+    color: #40a8c5;
+}
+.column-money a{
+    display: inline-block;
+    float: right;
+    width: 90px;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #40a8c5;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
