@@ -6,6 +6,7 @@
 }
 body{
     background: #eff8f5;
+    overflow-x: hidden;
 }
 a {
   text-decoration: none; }
